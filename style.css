@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #87CEEB, #90EE90);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background: white;
+    width: 90%;
+    max-width: 700px;
+    padding: 30px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border: 5px solid #FFD700;
+}
+
+h1 {
+    color: #1E90FF;
+    font-size: 40px;
+}
+
+.personagens {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.placar {
+    font-size: 24px;
+    color: #800080;
+    margin-bottom: 20px;
+}
+
+.pergunta-box {
+    background: #FFF8DC;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    border: 3px solid #FFD700;
+}
+
+.alternativas {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.alternativas button {
+    background: #FF69B4;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.alternativas button:hover {
+    background: #FF1493;
+    transform: scale(1.05);
+}
+
+.mensagem {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.decoracao {
+    margin-top: 25px;
+    font-size: 40px;
+}
+
+#reiniciar {
+    margin-top: 20px;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 15px;
+    background: #1E90FF;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+#reiniciar:hover {
+    background: #0066cc;
+}
