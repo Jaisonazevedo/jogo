@@ -1,0 +1,27 @@
+
+Este projeto consiste no desenvolvimento de um jogo criado para a disciplina de Sistemas de Informação. O objetivo do jogo é proporcionar entretenimento ao usuário utilizando conceitos de programação e lógica.
+
+## Objetivo do Projeto
+Desenvolver um jogo funcional aplicando:
+- Programação orientada a objetos
+- Estruturação de código
+- Versionamento com Git e GitHub
+- Trabalho em equipe
+
+
+- Java
+- Git
+- GitHub
+
+
+- `src/` → Código-fonte
+- `assets/` → Imagens e sons
+- `docs/` → Documentação
+- `lib/` → Bibliotecas externas
+
+
+- Jaison Carlos de Azevedo Junior
+
+
+
+
